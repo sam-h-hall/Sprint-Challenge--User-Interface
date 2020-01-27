@@ -39,11 +39,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+    1. display: block creates a new line for the element it is used on. Also, that element takes up the entire width of the line.
+
+    2. display: inline does not create a new line or take up the entire width of the line. It actually ignores any height or width properties you try to apply to it.
+
 3. What are the 4 areas of the box model?
 
     - Starting from the outside it goes margin, border, padding, content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+    - This works on the cross axis, or the horizontal axis.
 
 5. Explain why git is valuable to a team of developers.
 
